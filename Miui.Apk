@@ -1,0 +1,5 @@
+cd /path/to/ocs-url
+./scripts/prepare
+qmake PREFIX=/usr
+make
+sudo make install
